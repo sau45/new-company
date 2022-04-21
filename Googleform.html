@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="headline">Good Vibes Form</div>
+
+        <div class="content">
+            <P>Tell us something positive that happened to you today.</P>
+
+            <form action="noaction.php" id="survey-form">
+                <div class="name"> <label for="name" id="name-label" >Name</label>
+                    <input type="text" placeholder="Type Your Name"> <br>
+                </div>
+
+                <div class="email">
+                    <label for="email" id="email-label"> E-mail</label>
+                    <input type="text" placeholder="Type Your email"> <br>
+                </div>
+
+                <div class="number">
+                    <label for="number" id="number-label">On-scale of 1-10,how good was it ?</label>
+                    <input type="text" placeholder="Type from 1-10"> <br>
+                </div>
+
+                <div class="option">
+                    <label for="dropdown" id="dropdown-label"> Where did it happen ?</label>
+                    <select name="Location of positive event" id="option-select">
+                        <option value="Home">At Home</option>
+                        <option value="Commute">On My Commute</option>
+                        <option value="Work">At Work</option>
+                        <option value="street">On the street</option>
+                        <option value="other">Others</option>
+                    </select>
+                    <div class="time">
+
+                        <label for="At what time" id="line-time">At What time of day did <br>it happen ?</label>
+                        <ul id="listofhappened" type="none">
+                            <li style="    margin-left: 7px;">
+                                <label for="At what time">
+                                    <input name="time-radio" type="radio" value="1">
+                                    Morning
+                                </label>
+
+                            </li>
+                            <li style=" margin-left: 30px;">
+                                <label for="At what time">
+                                    <input name="time-radio" type="radio" value="2">
+                                    Afternoon
+                                </label>
+
+                            </li>
+                            <li>
+
+                                <label for="At what time">
+                                    <input name="time-radio" type="radio" value="3">
+                                    Evening
+                                </label>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                </div>
+                <div class="label1">
+
+                    <label for="emotion" id="label1line">What emotion did you experience ? <br>select all that
+                        apply</label>
+                    <ul id="emotion" type="none">
+                        <li style="    margin-left: 6px;">
+                            <label for="At what time">
+                                <input name="emotion-checkbox" type="checkbox" value="1">
+                                Excited
+                            </label>
+
+                        </li>
+                        <li style="    margin-left: 13px;">
+                            <label for="At what time">
+                                <input name="emotion-checkbox" type="checkbox" value="2">
+                                Humbled
+                            </label>
+
+                        </li>
+                        <li style="    margin-left: -9px;">
+
+                            <label for="At what time">
+                                <input name="emotion-checkbox" type="checkbox" value="3">
+                                Elated
+                            </label>
+                        </li>
+                        <li style="    margin-left: -17px;">
+
+                            <label for="At what time">
+                                <input name="emotion-checkbox" type="checkbox" value="4">
+                                Loved
+                            </label>
+                        </li>
+                        <li style="     margin-left: 44px;">
+
+                            <label for="At what time">
+                                <input name="emotion-checkbox" type="checkbox" value="5">
+                                Enthusiastic
+                            </label>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div class="Feedback">
+                    <label for="Feedback" id="footer"> Please describe Your positive Experience :
+                    </label>
+                    <textarea name="form-feedback" id="form-feedback" cols="30" rows="10"
+                        placeholder=" Type your exeperience"></textarea>
+                </div>
+                <div class="button">
+                    <button id="submit">Submit</button>
+                </div>
+        </div>
+       
+        </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

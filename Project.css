@@ -1,0 +1,597 @@
+/* Css code for Newproject about company */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 3456px;
+    width: 100%;
+    margin-left: -2px;
+}
+
+
+
+html {
+    font-family: "Raleway", sans-serif;
+}
+
+.header {
+    border: 1px solid black;
+    padding: 3px;
+    background-color: white;
+    height: 48px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+
+    display: inline-block;
+    color: black;
+    margin-top: 14px;
+    margin-left: 41px;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+}
+
+.right-logo {
+
+    display: flex;
+    margin-left: 850px;
+    margin-top: -28px;
+    padding: 3px;
+    font-size: 17px;
+    color: #5a4f4fad;
+
+
+}
+
+.right-logo a {
+    text-decoration: none;
+}
+
+.right-navbar {
+
+    padding: 6px;
+    color: black;
+
+}
+
+
+
+.right-logo a:hover {
+    background-color: hsla(39, 31%, 78%, 0.667);
+
+}
+
+.imgf {
+    margin-top: 15px;
+    margin-left: -4px;
+    height: 87%;
+    width: 101%;
+}
+
+#firstimg {
+    background-attachment: fixed;
+
+
+}
+
+.backgroundimg {
+
+    background-image: url(bodyimgg.jpg);
+    background-position: 45px;
+    background-size: cover;
+    backface-visibility: visible;
+    height: 495px;
+
+
+}
+
+.backgroundimg h1 {
+
+    display: inline-block;
+    color: white;
+    margin-left: 29px;
+    font-size: 47px;
+    margin-top: 90px;
+    background-color: #d43636ba;
+
+}
+
+.backgroundimg h4 {
+
+    color: white;
+    padding: 13px;
+    margin-left: 22px;
+    display: block;
+    width: 572px;
+    margin-top: 57px;
+    font-size: 16px;
+    background-color: #0bcdbf6e;
+}
+
+.backgroundimg h3 {
+    border: 1px solid white;
+    display: block;
+    width: 313px;
+    margin-top: 75px;
+    padding: 15px;
+    background-color: #ebf1f487;
+    color: white;
+    cursor: pointer;
+    margin-left: 107px;
+}
+
+
+.twitter {
+    background-color: black;
+    display: inline-block;
+    margin-left: 113px;
+    margin-top: 72px;
+    border-radius: 10px;
+}
+
+.twitter img {
+    height: 20px;
+    cursor: pointer;
+}
+
+.twitter img :hover {
+    background-color: darkgray;
+
+}
+
+#company {
+    padding: 0px;
+}
+
+.company {
+    display: block;
+    width: 361px;
+    margin: 146px auto;
+}
+
+.About {
+
+    display: inline-block;
+    width: 391px;
+    font-size: 34px;
+    margin-top: -33px;
+}
+
+.feature {
+    display: inline-block;
+    margin-left: 46px;
+    margin-top: 41px;
+}
+
+#four-logo {
+
+    display: inline-block;
+}
+
+.Responsive {
+
+    display: inline-block;
+    width: 282px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.Responsive img {
+    height: 49px;
+    margin-left: -20px;
+    margin-bottom: 8px;
+}
+
+.heart {
+
+    display: inline-block;
+    width: 315px;
+    font-size: 14px;
+    text-align: center;
+    height: 143px;
+    font-size: 14px;
+}
+
+.heart img {
+
+    height: 45px;
+    width: 87px;
+    margin-left: 11px;
+
+}
+
+.diamond {
+
+    display: inline-block;
+    width: 325px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.diamond img {
+    height: 53px;
+    width: 73px;
+    margin-left: -23px;
+}
+
+.setting {
+
+    display: inline-block;
+    width: 301px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.setting img {
+    height: 45px;
+    margin-left: 52px;
+    width: 76px;
+}
+
+.design {
+    margin-top: 34px;
+}
+
+.Theteam {
+
+    display: block;
+    width: 212px;
+    margin: 95px auto;
+    font-size: 39px;
+    padding: -4px;
+    margin-bottom: 46px;
+}
+
+.Run {
+
+    display: block;
+    width: 258px;
+    margin: 4px auto;
+    margin-bottom: 118px;
+    margin-top: 1px;
+}
+
+.Teamphoto {
+
+    display: flex;
+}
+
+.photo1 {
+
+    text-align: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: gray;
+}
+
+.photo2 {
+
+    text-align: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: gray;
+}
+
+.photo3 {
+
+    text-align: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: gray;
+}
+
+.photo4 {
+
+    text-align: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: gray;
+}
+
+.photo1 img {
+
+    height: 191px;
+    width: 265px;
+    margin-right: -2px;
+    margin-left: -7px;
+    margin-top: 0px;
+}
+
+.photo2 img {
+
+    height: 191px;
+    width: 265px;
+    margin-right: 9px;
+    margin-left: 50px;
+}
+
+.photo3 img {
+
+    height: 191px;
+    width: 265px;
+    margin-right: 15px;
+    margin-left: 66px;
+}
+
+.photo4 img {
+
+    height: 191px;
+    width: 232px;
+    margin-right: 37px;
+    margin-left: 34px;
+}
+
+.C1 {
+    border: 1px solid black;
+    display: inline-block;
+    background-color: #dad0d061;
+    margin-bottom: 9px;
+    width: 228px;
+    font-size: 15px;
+    margin-left: -43px;
+}
+
+.C2 {
+    border: 1px solid black;
+    display: inline-block;
+    background-color: #dad0d061;
+    margin-bottom: 9px;
+    width: 228px;
+    font-size: 15px;
+    margin-left: -43px;
+}
+
+.C3 {
+    border: 1px solid black;
+    display: inline-block;
+    background-color: #dad0d061;
+    margin-bottom: 9px;
+    width: 228px;
+    font-size: 15px;
+    margin-left: -43px;
+}
+
+.C4 {
+    border: 1px solid black;
+    display: inline-block;
+    background-color: #dad0d061;
+    margin-bottom: 9px;
+    width: 228px;
+    font-size: 15px;
+    margin-left: -43px;
+}
+
+.C1 img {
+    height: 30px;
+    width: 45px;
+    margin-left: -27px;
+    margin-right: 17px;
+}
+
+.C2 img {
+    height: 30px;
+    width: 45px;
+    margin-left: 1px;
+}
+
+.C3 img {
+    height: 30px;
+    width: 45px;
+    margin-left: 1px;
+}
+
+.C4 img {
+    height: 30px;
+    width: 45px;
+    margin-left: 1px;
+}
+
+.project {
+
+    display: flex;
+    padding: 84px;
+    background-color: gainsboro;
+    margin-top: 161px;
+
+}
+
+.partner {
+
+    margin-left: 26px;
+    margin-right: 141px;
+}
+
+.project-done {
+
+    margin-right: 152px;
+}
+
+.client {
+
+    margin-right: 160px;
+}
+
+
+#our {
+
+    text-align: center;
+    margin-top: 153px;
+    padding: 56px;
+}
+
+.photo-four {
+
+    display: flex;
+}
+
+.photo-four1 {
+
+    display: flex;
+}
+
+.skill {
+
+    margin-top: 136px;
+    background-color: #dcdcdc52
+}
+
+.ourskill {
+
+    display: inline-block;
+    width: 430px;
+    padding: 48px;
+    margin-left: -3px;
+    height: 184px;
+}
+
+.detail {
+    display: block;
+    width: 86px;
+    margin: 3px
+}
+
+.photography {
+
+    margin-left: 534px;
+    margin-bottom: 36px;
+    margin-top: -256px;
+    width: 32px;
+}
+
+.desktop {
+
+    margin-left: 534px;
+    margin-bottom: 36px;
+    margin-top: 21px;
+    width: 165px;
+}
+
+.album {
+
+    margin-left: 546px;
+    margin-bottom: 36px;
+    margin-top: 30px;
+    width: 32px;
+}
+
+.block p {
+    border: 1px solid black;
+    margin-left: 535px;
+    width: 630px;
+    margin-top: -15px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.block1 p {
+    border: 1px solid black;
+    margin-left: 535px;
+    width: 498px;
+    margin-top: -15px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.block2 p {
+    border: 1px solid black;
+    margin-left: 540px;
+    width: 367px;
+    margin-top: -15px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.contact {
+
+    margin-top: 81px;
+    height: 576px;
+    background-color: #ede4e4;
+}
+
+.contact1 {
+
+    text-align: center;
+    margin-top: 79px;
+}
+
+.location {
+    text-align: 30px;
+}
+
+.information {
+    margin-top: 191px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #f5f5dc69;
+}
+
+.name {
+    width: 531px;
+    height: 30px;
+    margin-left: 46px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.email {
+    width: 530px;
+    height: 30px;
+    margin-left: 43px;
+    margin-top: 33px;
+    text-align: center;
+}
+
+.contak {
+    width: 531px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 33px;
+    text-align: center;
+
+}
+
+.message {
+    width: 531px;
+    height: 30px;
+    margin-left: 11px;
+    margin-top: 33px;
+    margin-bottom: 49px;
+    text-align: center;
+
+}
+
+
+
+#Send p {
+    margin: -3px;
+    margin-left: 54px;
+    margin-top: -17px;
+}
+
+button {
+    width: 173px;
+    height: 40px;
+    background: #000000d6;
+    color: white;
+    border-radius: 0px;
+}
+
+.End {
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating DOM</title>
+</head>
+<body>
+    <div id="content" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <script>
+        // let content = document.getElementById('content');
+        // console.log(content);
+        let content = document.getElementsByClassName('container');
+        console.log(content);
+        // Access like array content[0] 
+
+        // can Access each selector 
+        let sel = document.querySelector('.container');
+        console.log("Selector Return", sel);
+         
+        // can Access each id too 
+        // let id = document.querySelector('#nav');
+        // console.log("selectors returns",id);
+        let id = document.querySelectorAll('#nav>li');
+        console.log("selectors returns",id);
+        // To access the DOM value in console,write like 
+        // sel[0].innerHTML ="Saurav"
+    </script>
+</body>
+</html>

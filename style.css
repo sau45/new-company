@@ -1,0 +1,112 @@
+
+:root {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #d2141487;
+}
+
+.headline {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content {
+    border-radius: 29px;
+    height: 871px;
+    width: 892px;
+    margin-left: 167px;
+    text-align: center;
+    font-family: cursive;
+    background-color: #d0e2d1cf;
+}
+
+.name label {
+    margin-right: 17px;
+}
+
+.email label {
+    margin-right: 17px;
+}
+
+input[type="text"i] {
+    padding: 2px 32px;
+    margin: 9px;
+    border-radius: 21px;
+}
+
+.number label {
+    margin-left: -143px;
+    width: 223px;
+    display: inline-block;
+}
+
+.number input {
+    margin: 3px;
+}
+
+#dropdown-label {
+
+    margin-left: -248px;
+    margin-right: 34px;
+}
+
+#option-select {
+    padding: 4px;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+
+#line-time {
+    margin-left: -500px;
+    display: inline-block;
+    margin-right: -62px;
+    margin-top: -19px;
+}
+
+#listofhappened {
+
+    display: inline-block;
+    margin-right: -217px;
+    margin-top: 18px;
+    margin-left: 58px;
+}
+
+.label1 {
+    margin-top: 38px;
+}
+
+#label1line {
+    display: inline-block;
+    margin-left: -546px;
+}
+
+#emotion {
+
+    display: inline-block;
+    margin-right: -197px;
+    padding: 2px;
+}
+.Feedback{
+   
+margin-top: 31px;
+}
+#form-feedback{
+    height: 85px;
+width: 401px;
+border-radius: 14px;
+margin-top: 31px;
+text-align: center;
+}
+
+.button{
+    margin: 39px;
+}
+#submit{
+    border-radius: 10px;
+    background-color: #0b9c8d7a;
+}
